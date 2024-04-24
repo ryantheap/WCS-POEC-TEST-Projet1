@@ -1,0 +1,14 @@
+*, html, body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#sectionTitle{
+   background-image: url("/assets/images/billard-entete.png");
+   background-size: cover;
+   padding: 6rem 5rem;
+   color: white;
+   height: auto;
+   width: 100%;
+}
