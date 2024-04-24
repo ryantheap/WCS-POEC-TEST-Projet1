@@ -12,6 +12,21 @@ body {
     font-family: Roboto;
 }
 
+/* BTN*/
+.btn {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    transition: background 0.3s linear;
+}
 
 /* HEADER */
 .header {

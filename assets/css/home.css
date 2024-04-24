@@ -1,0 +1,27 @@
+.hero {
+    background-image: url('/assets/images/homepage-hero.png');
+    color: #fff;
+    padding: 6rem 5rem;
+    background-size: cover;
+    position: relative
+}
+
+.hero>h1 {
+    font-size: 30px;
+}
+
+.hero>h1>span {
+    font-family: Kaushan Script;
+    font-weight: 500;
+}
+
+.hero>p {
+    margin: 2rem 0;
+}
+
+.hero>img {
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    width: 12rem;
+}
