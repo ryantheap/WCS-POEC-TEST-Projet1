@@ -9,7 +9,35 @@
     <title>Hello Club - Les AS du Tapis</title>
 </head>
 <body>
-    <!--Header-->
+    <header class="header">
+        <a href="/">
+            <img src="./assets/images/logo.png" alt="Logo de Hello Clubs" />
+        </a>
+        <nav>
+            <ul>
+                <li class="nav-active"><a href="/">Accueil</a></li>
+                <li><a id="navClub" href="#">Les clubs</a>
+                    <ul id="navClubsList">
+                        <li>
+                            <a href="helloclubgolf.html">Hello Club Golf</a>
+                        </li>
+                        <li>
+                            <a href="festivals.html">
+                                Festivals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cybercode.html">CyberCode</a>
+                        </li>
+                        <li><a href="asdutapis.html">
+                                Les As du Tapis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section id="sectionTitle">
              <h1>Les As Du Tapis</h1>
@@ -44,8 +72,8 @@
             </article>
         </section>
         <div id="separation">
-            <img src="/assets/images/queue.png" alt="Queue de billard pool anglais"/>
-            <img src="/assets/images/boulebleu.png" alt="Boule rayée bleue de billard américain"/>
+            <img src="/assets/images/queue.png" alt="Queue de billard pool anglais" id="queueBillard"/>
+            <img src="/assets/images/boulebleu.png" alt="Boule rayée bleue de billard américain" id="bouleBleue"/>
         </div>
 
         <section id="containBottom">
@@ -72,6 +100,28 @@
         </div>
     </main>
 
-    <!--Footer-->
+    <footer class="footer">
+        <div>
+            <a href="/">
+                <img src="./assets/images/logo-white.png" alt="Logo blanc de HELLO CLUBS" />
+            </a>
+            <p>La référence des clubs en Nouvelle Aquitaine</p>
+        </div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/helloclubgolf.html">Hello Club Golf</a></li>
+                    <li><a href="/festivals.html">Festivals</a></li>
+                    <li><a href="/cybercode.html">CyberCode</a></li>
+                    <li><a href="/asdutapis.html">Les As du Tapis</a></li>
+                </ul>
+            </nav>
+            <p>
+                © copyright 2024 - helloclub.fr - Tout droits réservé - <a href="/">Mentions légales</a>
+            </p>
+        </div>
+    </footer>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
