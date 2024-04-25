@@ -146,7 +146,7 @@
 }
 
 
-/*Title*/
+/*Zone du titre*/
 
 #sectionTitle{
    background-image: url("/assets/images/billard-title.png");
@@ -185,7 +185,7 @@
 }
 
 
-/*Contain Top*/
+/*Contenu haut*/
 
 #containTop{
     display: flex;
@@ -253,7 +253,7 @@ margin-left: -3%;
 }
 
 
-/*Separation*/
+/*Séparation*/
 
 #separation{
     display: flex;
@@ -271,7 +271,7 @@ margin-left: -3%;
 }
 
 
-/*containBottom*/
+/*Contenu Bas*/
 
 #containBottom{
     display: flex;
