@@ -1,3 +1,151 @@
+/*Keyframe*/
+@keyframes animTitle {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes animTitleText {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes animRotateYellow {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animRotateBlue {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animQueue {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+@keyframes animPurple {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@keyframes animGreen {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
 /*Title*/
 
 #sectionTitle{
@@ -25,6 +173,7 @@
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
+    animation: animTitle 2s ease 0s 1 normal forwards;
 }
 
 #sectionTitle p{
@@ -32,6 +181,7 @@
     text-align: center;
     font-weight: bold;
     margin-top: -30px;
+    animation: animTitleText 2s ease 0s 1 normal forwards;
 }
 
 
