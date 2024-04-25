@@ -90,3 +90,27 @@ margin-left: -3%;
     margin-left: 40px;
     margin-top: 25px;
 }
+
+#poolAnglais span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+/*Separation*/
+
+#separation{
+    display: flex;
+    justify-content: space-around;
+}
+
+#queueBillard{
+    width: 100%;
+}
+
+#bouleBleue{
+    height: 288px;
+    width: auto;
+    margin-right: -40px;
+}
+
