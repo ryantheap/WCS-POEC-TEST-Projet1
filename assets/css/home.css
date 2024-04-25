@@ -1,13 +1,15 @@
+/* HERO */
 .hero {
     background-image: url('/assets/images/homepage-hero.png');
     color: #fff;
-    padding: 6rem 5rem;
+    padding: 6rem 10vw;
     background-size: cover;
+    background-position: center;
     position: relative
 }
 
 .hero>h1 {
-    font-size: 30px;
+    font-size: 2.2em;
 }
 
 .hero>h1>span {
@@ -17,11 +19,74 @@
 
 .hero>p {
     margin: 2rem 0;
+    line-height: 25px;
+    font-size: 1.1em;
 }
 
 .hero>img {
     position: absolute;
-    right: 1rem;
+    right: 10vw;
     bottom: 1rem;
     width: 12rem;
+}
+
+/* CARDS LIST */
+.cardslist {
+    margin-top: 5rem;
+    padding: 0 10vw;
+}
+
+.cardslist>h2,
+.cardslist>h3 {
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+.cardslist>h3 {
+    margin-bottom: 3rem;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+.cardslist>h3>span {
+    font-family: 'Kaushan Script';
+}
+
+.cardslist>.cards {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardslist>.cards>.card {
+    background-color: #7c7c7c21;
+    text-align: center;
+    border-radius: 20px;
+    width: 20rem;
+}
+
+.cardslist>.cards>.card>img {
+    width: 100%;
+}
+
+.cardslist>.cards>.card>h4 {
+    font-size: 1.3em;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--secondary-color);
+}
+
+.cardslist>.cards>.card>p {
+    padding: 0 2rem;
+    margin: 1rem 0;
+}
+
+.cardslist>.cards>.card>.btn {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    text-decoration: none;
 }
