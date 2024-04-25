@@ -30,6 +30,10 @@
     width: 12rem;
 }
 
+.hero>a {
+    text-decoration: none;
+}
+
 /* CARDS LIST */
 .cardslist {
     margin-top: 5rem;
