@@ -1,9 +1,9 @@
 /*Title*/
 
 #sectionTitle{
-   background-image: url("/assets/images/billard-entete.png");
+   background-image: url("/assets/images/billard-title.png");
    background-size: cover;
-   padding: 6rem 5rem;
+   padding: 8rem 7rem;
    color: white;
    height: auto;
    width: 100%;
@@ -11,11 +11,16 @@
    justify-content: space-around;
 }
 
+.blocOpaque{
+  background-color:#FFFFFF;
+  filter:Alpha(opacity=60);-moz-opacity:0.60;opacity: 0.60; 
+}
+
 #sectionTitle h1{
-    font-size: 50px;
+    font-size: 60px;
     transform: rotate(-368deg);
     margin-bottom: 50px;
-    margin-top: 15px;
+    margin-top: -40px;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -26,6 +31,7 @@
     width: 25%;
     text-align: center;
     font-weight: bold;
+    margin-top: -30px;
 }
 
 
@@ -51,7 +57,7 @@ margin-left: -3%;
 
 #containTop #services{
     width: 40%;
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
 }
 
@@ -76,7 +82,7 @@ margin-left: -3%;
 
 #poolAnglais{
     width: 40%;
-    padding-left: 20px;
+    padding-left: 90px;
     padding-right: 20px;
 }
 
@@ -86,7 +92,7 @@ margin-left: -3%;
 }
 
 #poolAnglais p{
-    width: 60%;
+    width: 58%;
     margin-left: 40px;
     margin-top: 25px;
 }
@@ -105,12 +111,77 @@ margin-left: -3%;
 }
 
 #queueBillard{
-    width: 100%;
+    width: 80%;
 }
 
 #bouleBleue{
     height: 288px;
     width: auto;
-    margin-right: -40px;
+    margin-right: -80px;
 }
 
+
+/*containBottom*/
+
+#containBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#bouleViolette, #bouleVerte{
+    height: 288px;
+    width: auto;
+}
+
+#bouleViolette{
+    margin-top: 220px;
+}
+
+#bouleVerte{
+    margin-top: 400px;
+    margin-left: -200px;
+}
+
+#containBottom #billardAmericain{
+    height: 250px;
+    width: auto;
+}
+
+#containBillardAmericain{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+#containBillardAmericain p{
+    width: 25%;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+#containBillardAmericain p span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#containContact{
+    text-align: center;
+    margin-right: 50px;
+    width: 100%;
+}
+
+#containContact h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+
+#containContact #contactAccroche{
+    margin-bottom: 30px;
+}
+
+#containContact p.contact{
+    font-weight: bold;
+    color: var(--secondary-color);
+}
