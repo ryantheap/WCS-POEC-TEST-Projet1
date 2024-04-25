@@ -1,3 +1,5 @@
+/*Title*/
+
 #sectionTitle{
    background-image: url("/assets/images/billard-entete.png");
    background-size: cover;
@@ -16,11 +18,75 @@
     margin-top: 15px;
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
     font-style: normal;
 }
 
 #sectionTitle p{
     width: 25%;
     text-align: center;
+    font-weight: bold;
+}
+
+
+/*Contain Top*/
+
+#containTop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#containTop #bouleJaune{
+height: 288px;
+width: auto;
+margin-top: 181px;
+margin-left: -3%;
+}
+
+#containTop h2{
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
+#containTop #services{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#containTop #services p{
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#containTop ul{
+    margin-left: 35px;
+}
+
+#containTop ul li{
+    margin-bottom: 20px;
+}
+
+#containTop ul li strong{
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+#poolAnglais{
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#poolAnglais #imgBillardAnglais{
+    height: 200px;
+    width: auto;
+}
+
+#poolAnglais p{
+    width: 60%;
+    margin-left: 40px;
+    margin-top: 25px;
 }
