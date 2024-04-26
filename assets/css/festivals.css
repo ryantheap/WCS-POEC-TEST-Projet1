@@ -10,7 +10,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     position: relative;
-    font-family: RocknRoll+One;
+    font-family: 'RocknRoll One';
 }
 
 .herofestivals {
@@ -242,14 +242,6 @@ form h1 {
     color: var(--secondary-color);
 }
 
-/* .reservation input[type="submit"]:hover{
-    display:flex;
-    background-color: #909BAF;
-    width: 70%;
-    justify-content: center;
-    text-align: center;
-    color: white;
-} */
 .reservation input[type="submit"] {
 
     background-color: #ccd2df;
