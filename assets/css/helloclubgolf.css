@@ -1,0 +1,111 @@
+main h1 {
+    color: white;
+    display: contents;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+
+main h1>p {
+    justify-content: right;
+    justify-items: right;
+    display: inline-block;
+    text-align: right;
+    font-size: larger;
+
+}
+
+main h1,
+main p {
+    padding: 2rem;
+    font-weight: bold;
+}
+
+main h2,
+main p {
+    padding: 0;
+    text-align: left;
+    justify-items: left;
+    font-weight: normal;
+
+}
+
+main h2 {
+    font-weight: bold;
+}
+
+main ul {
+    float: right;
+    background-color: skyblue;
+    font-size: larger;
+    display: block;
+    padding: 20px;
+    margin: 2rem;
+
+}
+
+main .containtTitle {
+    background-image: url("../images/golf1.png");
+    color: black;
+    filter: brightness(100%);
+    background-size: cover;
+    padding: 9rem 12vw;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;
+}
+
+main .containtTitle>p {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+main ul {
+    width: 300px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    list-style-type: none;
+}
+
+main .containtLogo>p {
+    color: rgb(70, 131, 180);
+    margin: 0;
+    font-weight: bold;
+}
+
+main img {
+    width: 300px;
+}
+
+main h2 {
+    text-decoration: underline;
+
+}
+
+main li,
+main a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+main body {
+    background-color: whitesmoke;
+}
+
+main .containtPresentation {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 10vw;
+}
+
+main .containtLogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10vw;
+}
