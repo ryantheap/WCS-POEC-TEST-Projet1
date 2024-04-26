@@ -16,21 +16,108 @@
 
 <body>
     <!-- TODO : HEADER -->
+    <header class="header">
+        <a href="/">
+            <img src="./assets/images/logo.png" alt="Logo de Hello Clubs" />
+        </a>
+        <nav>
+            <ul>
+                <li class="nav-active"><a href="/">Accueil</a></li>
+                <li><a id="navClub" href="#">Les clubs</a>
+                    <ul id="navClubsList">
+                        <li>
+                            <a href="helloclubgolf.html">Hello Club Golf</a>
+                        </li>
+                        <li>
+                            <a href="festivals.html">
+                                Festivals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cybercode.html">CyberCode</a>
+                        </li>
+                        <li><a href="asdutapis.html">
+                                Les As du Tapis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="hero">
             <h1>Bienvenue sur <span>HELLO CLUBS</span></h1>
-            <p>Plongez dans l'univers dynamique de la Nouvelle-Aquitaine avec HELLO CLUBS ! Explorez une palette variée
-                de clubs culturels, sportifs, et de loisirs pour vivre des expériences uniques et enrichissantes à
+            <p>Plongez dans l'univers dynamique de la Nouvelle-Aquitaine avec HELLO CLUBS !<br />
+                Explorez une palette variée de clubs culturels, sportifs, et de loisirs <br />pour vivre des expériences
+                uniques et enrichissantes à
                 chaque coin de la région.</p>
-            <button class="btn">Nous contacter</button>
+            <a href="#section-contact" class="btn">Nous contacter</a>
             <img src="./assets/images/logo-na.png" alt="Logo de la Nouvelle Aquitaine" />
         </section>
-        <section></section>
-        <section></section>
+        <section class="cardslist">
+            <h2>Les derniers clubs référencés</h2>
+            <h3>Retrouvez les derniers clubs inscrits sur <span>HELLO CLUBS</span></h3>
+            <div class="cards">
+                <div class="card">
+                    <img src="./assets/images/card-golf.png" alt="Trou de golf avec des balles et un club" />
+                    <h4>Hello Club Golf</h4>
+                    <p>Découvrez le monde du golf avec Hello Club Golf : le sport de précision en plein air où
+                        l'objectif est d'envoyer une balle dans un trou à l'aide de clubs</p>
+                    <a href="/helloclubgolf.html" class="btn">Découvrir le club</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/card-festivals.png" alt="Clé de sol" />
+                    <h4>Festivals</h4>
+                    <p>Découvrez l'énergie contagieuse des festivals : musique, rencontres et souvenirs à jamais gravés.
+                    </p>
+                    <a href="/festivals.html" class="btn">Découvrir le club</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/card-cybercode.png" alt="Un ordinateur posé sur une table" />
+                    <h4>CyberCode</h4>
+                    <p>Découvrez le monde du développement web avec CyberCode
+                        où la technologie rencontre la créativité.</p>
+                    <a href="/cybercode.html" class="btn">Découvrir le club</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/images/card-billard.png" alt="Une table de billard" />
+                    <h4>Les As du Tapis</h4>
+                    <p>Il y a plus de deux décennies, "Les As du Tapis" ont été fondés par des passionnés de billard,
+                        devenant un pilier de la communauté.</p>
+                    <a href="/asdutapis.html" class="btn">Découvrir le club</a>
+                </div>
+            </div>
+        </section>
+        <div class="spacer"></div>
+        <section id="section-contact" class="contact">
+            <h2>Vous souhaitez référencer votre club ?</h2>
+            <h3>Contactez-nous dès à présent !</h3>
+            <div class="card-form">
+                <a href="tel:+33606060606"><img src="./assets/images/icon-phone.png"
+                        alt="Icon téléphone" />06.06.06.06.06</a>
+                <a href="mailto:contact@helloclubs.fr"><img src="./assets/images/icon-message.png"
+                        alt="Icon message" />contact@helloclubs.fr</a>
+                <a target="_blank" href="https://maps.app.goo.gl/gWcpErmpnNwAkDAK7"><img
+                        src="./assets/images/icon-home.png" alt="Icon maison" />3 rue des clubs 33000 BORDEAUX</a>
+                <form id="contact-form" method="post">
+                    <div class="inline-group">
+                        <input required type="text" name="lastname" placeholder="Nom" />
+                        <input required type="text" name="firstname" placeholder="Prénom" />
+                    </div>
+                    <input required type="email" name="email" placeholder="Adresse Email" />
+                    <input required type="tel" name="phone" placeholder="N° Téléphone" />
+                    <textarea required name="message" placeholder="Votre message"></textarea>
+                    <button class="btn">Envoyer</button>
+                </form>
+            </div>
+        </section>
     </main>
 
 
     <!-- TODO : FOOTER -->
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 
 </html>
