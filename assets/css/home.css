@@ -20,8 +20,8 @@
 }
 
 .hero>img {
-    position: absolute;
-    right: 1rem;
+    position: relative;
+    left: 1rem;
     bottom: 1rem;
     width: 12rem;
 }

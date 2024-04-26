@@ -1,0 +1,92 @@
+*,html,body {
+    box-sizing: border-box;
+    font-family: Roboto;
+   
+}
+h1{
+    color: white;
+    display:contents;
+    padding-top:3rem;
+    font-weight: bold;
+}
+h1>p{
+    justify-content: right;
+    justify-items: right;
+    display:inline-block;
+    text-align: right;
+    font-size:larger;
+    
+}
+h1,p{
+    padding: 2rem;
+    font-weight: bold;
+}
+
+h2,p{
+    padding: 0;
+    text-align: left;
+    justify-items: left;
+    font-weight:normal;
+    
+}
+h2{
+    font-weight: bold;  
+}
+ul{
+    float: right;
+    background-color: skyblue;
+    font-size:larger;
+    display: block;
+    padding: 20px;
+    margin: 2rem;
+    
+}
+.containtTitle{
+    background-image: url("../images/golf1.png");
+    color:black;
+    filter: brightness(100%);
+    background-size: cover;
+    padding: 9rem 12vw;
+    display: flex;
+    justify-content: space-between;
+    background-position: center;   
+}
+ul{
+    width:300px;
+}
+ul li{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    list-style-type: none;
+}
+.containtLogo > p{
+    color: rgb(70, 131, 180);
+    margin: 0;
+    font-weight: bold;
+}
+img{
+    width: 300px;
+}
+h2{
+    text-decoration: underline;
+    
+}
+li , a{
+    color:white;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+body{
+    background-color: whitesmoke;
+}
+.containtPresentation{
+    display: flex;
+    justify-content: space-between;
+}
+.containtLogo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
