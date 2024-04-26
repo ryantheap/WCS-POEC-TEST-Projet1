@@ -54,6 +54,11 @@ main .containtTitle {
     background-position: center;
 }
 
+main .containtTitle>p {
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
 main ul {
     width: 300px;
 }

@@ -10,6 +10,13 @@ body {
     padding: 0;
     box-sizing: border-box;
     position: relative;
+}
+
+section p,
+section a,
+section h1,
+section h2,
+section input {
     font-family: 'RocknRoll One';
 }
 
@@ -21,7 +28,7 @@ body {
     background-size: cover;
     background-position: center;
     padding: 5rem 10vw;
-    gap: 1rem
+    gap: 1rem;
 }
 
 .herofestivals>h1 {
