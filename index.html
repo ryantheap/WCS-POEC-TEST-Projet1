@@ -16,6 +16,35 @@
 
 <body>
     <!-- TODO : HEADER -->
+    <header class="header">
+        <a href="/">
+            <img src="./assets/images/logo.png" alt="Logo de Hello Clubs" />
+        </a>
+        <nav>
+            <ul>
+                <li class="nav-active"><a href="/">Accueil</a></li>
+                <li><a id="navClub" href="#">Les clubs</a>
+                    <ul id="navClubsList">
+                        <li>
+                            <a href="helloclubgolf.html">Hello Club Golf</a>
+                        </li>
+                        <li>
+                            <a href="festivals.html">
+                                Festivals
+                            </a>
+                        </li>
+                        <li>
+                            <a href="cybercode.html">CyberCode</a>
+                        </li>
+                        <li><a href="asdutapis.html">
+                                Les As du Tapis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <main>
         <section class="hero">
             <h1>Bienvenue sur <span>HELLO CLUBS</span></h1>
@@ -23,7 +52,7 @@
                 Explorez une palette variée de clubs culturels, sportifs, et de loisirs <br />pour vivre des expériences
                 uniques et enrichissantes à
                 chaque coin de la région.</p>
-            <button class="btn">Nous contacter</button>
+            <a href="#section-contact" class="btn">Nous contacter</a>
             <img src="./assets/images/logo-na.png" alt="Logo de la Nouvelle Aquitaine" />
         </section>
         <section class="cardslist">
@@ -61,7 +90,7 @@
             </div>
         </section>
         <div class="spacer"></div>
-        <section class="contact">
+        <section id="section-contact" class="contact">
             <h2>Vous souhaitez référencer votre club ?</h2>
             <h3>Contactez-nous dès à présent !</h3>
             <div class="card-form">
