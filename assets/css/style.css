@@ -65,12 +65,14 @@ body {
     font-weight: 500;
 }
 
-.header>nav>ul>li>a:hover {
+.header>nav>ul>li>a:hover,
+.header>nav>ul>li.nav-active>a {
     color: var(--secondary-color);
     position: relative;
 }
 
-.header>nav>ul>li>a:hover:before {
+.header>nav>ul>li>a:hover:before,
+.header>nav>ul>li.nav-active:before {
     position: absolute;
     content: "";
     background-color: var(--secondary-color);
@@ -84,7 +86,7 @@ body {
     background-color: var(--secondary-color);
     top: 55px;
     width: 10rem;
-    right: -12px;
+    right: -40px;
     display: none;
     z-index: 9;
 }
@@ -96,7 +98,8 @@ body {
     padding: 0.5rem 1rem;
 }
 
-.header>nav>ul>li>ul>li>a:hover {
+.header>nav>ul>li>ul>li>a:hover,
+.header>nav>ul>li>ul>li>a.subnav-active {
     color: var(--primary-color);
 }
 
