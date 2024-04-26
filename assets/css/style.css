@@ -107,8 +107,9 @@ body {
     background-color: var(--secondary-color);
     display: flex;
     align-items: center;
-    padding: 2rem;
-    justify-content: space-between;
+    padding: 5rem 10vw;
+    justify-content: center;
+    gap: 10vw;
 }
 
 .footer>div>a>img {

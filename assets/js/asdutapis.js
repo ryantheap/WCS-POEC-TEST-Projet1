@@ -12,17 +12,17 @@ document.addEventListener('click', (element) => {
     if (element.target != bouleJaune) {
         bouleJaune.style.animation = "";
     }
-}); 
+});
 
 
 bouleBleue.addEventListener('click', () => {
     bouleBleue.style.animation = "animRotateBlue 1s ease 0s 1 reverse forwards";
 })
 document.addEventListener('click', (element) => {
-    if(element.target != bouleBleue){
+    if (element.target != bouleBleue) {
         bouleBleue.style.animation = "";
     }
-}); 
+});
 
 
 bouleViolette.addEventListener('click', () => {
@@ -32,7 +32,7 @@ document.addEventListener('click', (element) => {
     if (element.target != bouleViolette) {
         bouleViolette.style.animation = "";
     }
-}); 
+});
 
 
 bouleVerte.addEventListener('click', () => {
@@ -42,7 +42,7 @@ document.addEventListener('click', (element) => {
     if (element.target != bouleVerte) {
         bouleVerte.style.animation = "";
     }
-}); 
+});
 
 
 queueBillard.addEventListener('click', () => {
@@ -52,7 +52,7 @@ document.addEventListener('click', (element) => {
     if (element.target != queueBillard) {
         queueBillard.style.animation = "";
     }
-}); 
+});
 
 
 
