@@ -1,0 +1,339 @@
+/*Keyframe*/
+@keyframes animTitle {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+        rotate: -368deg;
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+        rotate: -368deg;
+	}
+}
+
+@keyframes animTitleText {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes animRotateYellow {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animRotateBlue {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes animQueue {
+	0%,
+	100% {
+		transform: translateX(0);
+	}
+
+	10%,
+	30%,
+	50%,
+	70% {
+		transform: translateX(-10px);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: translateX(10px);
+	}
+
+	80% {
+		transform: translateX(8px);
+	}
+
+	90% {
+		transform: translateX(-8px);
+	}
+}
+
+@keyframes animPurple {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
+@keyframes animGreen {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 1;
+		transform: translateY(45px);
+	}
+
+	24% {
+		opacity: 1;
+	}
+
+	40% {
+		animation-timing-function: ease-in;
+		transform: translateY(24px);
+	}
+
+	65% {
+		animation-timing-function: ease-in;
+		transform: translateY(12px);
+	}
+
+	82% {
+		animation-timing-function: ease-in;
+		transform: translateY(6px);
+	}
+
+	93% {
+		animation-timing-function: ease-in;
+		transform: translateY(4px);
+	}
+
+	25%,
+	55%,
+	75%,
+	87% {
+		animation-timing-function: ease-out;
+		transform: translateY(0px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0px);
+	}
+}
+
+
+/*Zone du titre*/
+
+#sectionTitle{
+   background-image: url("/assets/images/billard-title.png");
+   background-size: cover;
+   padding: 8rem 7rem;
+   color: white;
+   height: auto;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.blocOpaque{
+  background-color:#FFFFFF;
+  filter:Alpha(opacity=60);-moz-opacity:0.60;opacity: 0.60; 
+}
+
+#sectionTitle h1{
+    font-size: 60px;
+    transform: rotate(-368deg);
+    margin-bottom: 50px;
+    margin-top: -40px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    animation: animTitle 2s ease 0s 1 normal forwards;
+}
+
+#sectionTitle p{
+    width: 25%;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -30px;
+    animation: animTitleText 2s ease 0s 1 normal forwards;
+}
+
+
+/*Contenu haut*/
+
+#containTop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#containTop #bouleJaune{
+height: 288px;
+width: auto;
+margin-top: 181px;
+margin-left: -3%;
+}
+
+#containTop h2{
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+}
+
+#containTop #services{
+    width: 40%;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+#containTop #services p{
+    margin-bottom: 15px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#containTop ul{
+    margin-left: 35px;
+}
+
+#containTop ul li{
+    margin-bottom: 20px;
+}
+
+#containTop ul li strong{
+    margin-bottom: 20px;
+    color: var(--secondary-color);
+}
+
+#poolAnglais{
+    width: 40%;
+    padding-left: 90px;
+    padding-right: 20px;
+}
+
+#poolAnglais #imgBillardAnglais{
+    height: 200px;
+    width: auto;
+}
+
+#poolAnglais p{
+    width: 58%;
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+#poolAnglais span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+/*Séparation*/
+
+#separation{
+    display: flex;
+    justify-content: space-around;
+}
+
+#queueBillard{
+    width: 80%;
+}
+
+#bouleBleue{
+    height: 288px;
+    width: auto;
+    margin-right: -80px;
+}
+
+
+/*Contenu Bas*/
+
+#containBottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#bouleViolette, #bouleVerte{
+    height: 288px;
+    width: auto;
+}
+
+#bouleViolette{
+    margin-top: 220px;
+}
+
+#bouleVerte{
+    margin-top: 400px;
+    margin-left: -200px;
+}
+
+#containBottom #billardAmericain{
+    height: 250px;
+    width: auto;
+}
+
+#containBillardAmericain{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+#containBillardAmericain p{
+    width: 25%;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+#containBillardAmericain p span{
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+#containContact{
+    text-align: center;
+    margin-right: 50px;
+    width: 100%;
+}
+
+#containContact h2{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: var(--secondary-color);
+}
+
+#containContact #contactAccroche{
+    margin-bottom: 30px;
+}
+
+#containContact p.contact{
+    font-weight: bold;
+    color: var(--secondary-color);
+}
