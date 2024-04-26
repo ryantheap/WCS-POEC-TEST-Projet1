@@ -1,15 +1,11 @@
-*,html,body {
-    box-sizing: border-box;
-    font-family: Roboto;
-   
-}
-h1{
+
+main h1{
     color: white;
     display:contents;
     padding-top:3rem;
     font-weight: bold;
 }
-h1>p{
+main h1>p{
     justify-content: right;
     justify-items: right;
     display:inline-block;
@@ -17,22 +13,22 @@ h1>p{
     font-size:larger;
     
 }
-h1,p{
+main h1,p{
     padding: 2rem;
     font-weight: bold;
 }
 
-h2,p{
+main h2,p{
     padding: 0;
     text-align: left;
     justify-items: left;
     font-weight:normal;
     
 }
-h2{
+main h2{
     font-weight: bold;  
 }
-ul{
+main ul{
     float: right;
     background-color: skyblue;
     font-size:larger;
@@ -41,7 +37,7 @@ ul{
     margin: 2rem;
     
 }
-.containtTitle{
+main .containtTitle{
     background-image: url("../images/golf1.png");
     color:black;
     filter: brightness(100%);
@@ -51,41 +47,41 @@ ul{
     justify-content: space-between;
     background-position: center;   
 }
-ul{
+main ul{
     width:300px;
 }
-ul li{
+main ul li{
     margin-bottom: 10px;
     text-align: center;
     font-weight: bold;
     font-size: x-large;
     list-style-type: none;
 }
-.containtLogo > p{
+main .containtLogo > p{
     color: rgb(70, 131, 180);
     margin: 0;
     font-weight: bold;
 }
-img{
+main img{
     width: 300px;
 }
-h2{
+main h2{
     text-decoration: underline;
     
 }
-li , a{
+main li , a{
     color:white;
     text-decoration: none;
     margin-bottom: 2rem;
 }
-body{
+main body{
     background-color: whitesmoke;
 }
-.containtPresentation{
+main .containtPresentation{
     display: flex;
     justify-content: space-between;
 }
-.containtLogo{
+main .containtLogo{
     display: flex;
     justify-content: space-between;
     align-items: center;
