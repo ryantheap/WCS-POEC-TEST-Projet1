@@ -14,68 +14,72 @@ body {
 }
 
 .herofestivals {
-display: flex;
-background-image: url('../images/festivals.jpg');
-justify-content: center;
-align-items: center;
-background-size: cover;
-background-position: center;
-padding:5rem 10vw;
-gap:1rem
-    }
+    display: flex;
+    background-image: url('../images/festivals.jpg');
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 10vw;
+    gap: 1rem
+}
 
-    .herofestivals>h1 {
-       margin-bottom: 10rem;
-       color : var(--secondary-color);
-
-
-
-    }
-    .herofestivals>p {
-        margin-top: 5rem;
- 
-     }
-
-    h2  {
-        display: flex;
-        justify-content: center;
-        color : var(--secondary-color);
+.herofestivals>h1 {
+    margin-bottom: 10rem;
+    color: var(--secondary-color);
 
 
-    }
+
+}
+
+.herofestivals>p {
+    margin-top: 5rem;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--secondary-color);
+
+
+}
+
 /* Début garorock */
 
-    .garorock{
-       display: flex;
-       gap: 3rem;
-       margin-bottom: 20px;
-       margin-top: 20px;
+.garorock {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
 
 
-    }
+}
 
-    .infosgarorock{
-        display:flex;
-        justify-content: space-between;
-        margin-bottom: 10px;
+.infosgarorock {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 
 
-    }
+}
 
-    .lieuG{
-margin-right: 200px;
+.lieuG {
+    margin-right: 200px;
 
-    }
-.garorock>img{
+}
+
+.garorock>img {
     height: 100px;
-    width:auto;
+    width: auto;
 
 }
-.descriptionG{
-  padding-right: 20px
 
+.descriptionG {
+    padding-right: 20px
 }
-.garorock h3{
+
+.garorock h3 {
     margin-bottom: 10px;
 
 }
@@ -84,36 +88,38 @@ margin-right: 200px;
 
 /* Début francofolie */
 
-.francofolie{
+.francofolie {
     display: flex;
     gap: 3rem;
     margin-bottom: 20px;
 
- }
+}
 
- .infosfrancofolie{
-     display:flex;
-     justify-content: space-between;
-     margin-bottom: 10px;
+.infosfrancofolie {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 
-
- }
-
- .lieuF{
-margin-right: 190px;
-
- }
-.francofolie>img{
- height: 121px;
- width:auto;
 
 }
-.descriptionF{
-padding-right: 20px
+
+.lieuF {
+    margin-right: 190px;
 
 }
-.francofolie h3{
- margin-bottom: 10px;
+
+.francofolie>img {
+    height: 121px;
+    width: auto;
+
+}
+
+.descriptionF {
+    padding-right: 20px
+}
+
+.francofolie h3 {
+    margin-bottom: 10px;
 
 }
 
@@ -121,54 +127,56 @@ padding-right: 20px
 
 /* Deébut Sunska */
 
-.Sunska{
+.Sunska {
     display: flex;
     gap: 3rem;
     margin-bottom: 20px;
 
- }
+}
 
- .infosSunska{
-     display:flex;
-     justify-content: space-between;
-     margin-bottom: 10px;
+.infosSunska {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 
-
- }
-
- .lieuS{
-margin-right: 212px;
-
- }
-.Sunska>img{
- height: 103px;
- width:auto;
 
 }
-.descriptionS{
-padding-right: 20px
+
+.lieuS {
+    margin-right: 212px;
 
 }
-.Sunska h3{
- margin-bottom: 10px;
+
+.Sunska>img {
+    height: 103px;
+    width: auto;
+
+}
+
+.descriptionS {
+    padding-right: 20px
+}
+
+.Sunska h3 {
+    margin-bottom: 10px;
 
 }
 
 /* Fin Sunska */
 
-.tronc{
-    margin-top: 10px ;
+.tronc {
+    margin-top: 10px;
 }
 
 /* Début formulaire */
 
-.formulaire{
+.formulaire {
     display: flex;
-    background-image: url('../images/festivals2.png'); 
+    background-image: url('../images/festivals2.png');
     background-size: cover;
-    background-position: center; 
+    background-position: center;
     justify-content: space-around;
-    height: auto; 
+    height: auto;
 }
 
 /* .reservation{
@@ -176,7 +184,8 @@ display: flex;
 
 
 } */
-label, input{
+label,
+input {
     display: block;
 }
 
@@ -187,15 +196,15 @@ label, input{
 
 } */
 
-.infos{
-margin: 80px 100px 200px;
-color: #ffffff;
-/* padding: 30px; */
+.infos {
+    margin: 80px 100px 200px;
+    color: #ffffff;
+    /* padding: 30px; */
 
 
 }
 
-.reservation{
+.reservation {
     display: block;
     align-items: center;
     margin: 50px;
@@ -203,32 +212,34 @@ color: #ffffff;
 
 }
 
-form{
+form {
     width: 400px;
     padding: 20px;
     background-color: #ffffff;
-    border:1px solid #dddd;
+    border: 1px solid #dddd;
     border-radius: 8px;
     /* box-shadow:  0 2px 5px rgba(0, 0, 0, 0,1); */
     margin: 80px 40px 40px;
-    
+
 
 }
-form input{
-   width: 100%;
-   padding: 7px;
-   box-sizing: border-box;
-   border: 1px solid #cccccc;
-   border-radius: 10px;
-   margin-bottom: 15px;
-   background-color: #F2F2F2;
-   text-align: center;
- 
-}
-form h1{
+
+form input {
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    background-color: #F2F2F2;
     text-align: center;
- margin-top:15px;
- color : var(--secondary-color);
+
+}
+
+form h1 {
+    text-align: center;
+    margin-top: 15px;
+    color: var(--secondary-color);
 }
 
 /* .reservation input[type="submit"]:hover{
@@ -239,22 +250,23 @@ form h1{
     text-align: center;
     color: white;
 } */
-.reservation input[type="submit"]{
-  
+.reservation input[type="submit"] {
+
     background-color: #ccd2df;
     width: 70%;
     margin-left: 15%;
     text-align: center;
-    color : var(--secondary-color);
+    color: var(--secondary-color);
 }
 
-.infos h3{
-    
-margin-top: 30px;
+.infos h3 {
+
+    margin-top: 30px;
 
 
 }
-a {
+
+.mail a {
     color: #ffffff;
     text-decoration: none;
     border: 2px solid #033849;
@@ -262,41 +274,31 @@ a {
 
 }
 
-.tronc h3{
+.tronc h3 {
     color: var(--secondary-color);
 
 }
- .tel{
+
+.tel {
     display: flex;
     align-items: center;
-    
- }
 
-.tel>img{
-    width: 20px;
-    height: auto;
-    margin-right: 5px;
 }
-.mail{
-    display: flex;
-    align-items: center;
-    
- }
 
-.mail>img{
+.tel>img {
     width: 20px;
     height: auto;
     margin-right: 5px;
 }
 
+.mail {
+    display: flex;
+    align-items: center;
 
-   
+}
 
-
-
-
-
-
-
-
-
+.mail>img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}

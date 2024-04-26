@@ -4,7 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberCode - HelloClubs</title>
+    <meta name="description"
+        content="Rejoignez le club CyberCode en Nouvelle-Aquitaine et plongez dans le monde passionnant du développement web. Apprenez, créez et partagez vos projets avec une communauté de passionnés.">
+    <meta name="keywords" content="développeur web, club, CyberCode, Nouvelle-Aquitaine">
+
+    <!-- Balises Open Graph -->
+    <meta property="og:title" content="CyberCode - Hello Clubs">
+    <meta property="og:description"
+        content="Rejoignez le club CyberCode en Nouvelle-Aquitaine et plongez dans le monde passionnant du développement web. Apprenez, créez et partagez vos projets avec une communauté de passionnés.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://helloclubs.fr/cybercode.html">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@CyberCodeClub">
+    <meta name="twitter:title" content="CyberCode - Hello Clubs">
+    <meta name="twitter:description"
+        content="Rejoignez le club CyberCode en Nouvelle-Aquitaine et plongez dans le monde passionnant du développement web. Apprenez, créez et partagez vos projets avec une communauté de passionnés.">
+
+    <!-- Autres méta-tags -->
+    <meta name="author" content="Hello Clubs">
+    <meta name="robots" content="index, follow">
+
+    <title>CyberCode - Hello Clubs</title>
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+    <!-- LINKS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -16,6 +47,38 @@
 </head>
 
 <body>
+    <header class="header">
+        <a href="/">
+            <img src="./assets/images/logo.png" alt="Logo de Hello Clubs" />
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li class="nav-active"><a id="navClub" href="#">Les clubs</a>
+                    <ul id="navClubsList">
+                        <li>
+                            <a href="helloclubgolf.html">Hello Club Golf</a>
+                        </li>
+                        <li>
+                            <a href="festivals.html">
+                                Festivals
+                            </a>
+                        </li>
+                        <li>
+                            <a class="subnav-active" href="cybercode.html">CyberCode</a>
+                        </li>
+                        <li><a href="asdutapis.html">
+                                Les As du Tapis
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/#section-contact">Référencez votre club</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
         <h1>CyberCode</h1>
         <p>Découvrez le monde du développement web avec CyberCode<br />où la technologie rencontre la créativité.</p>
@@ -64,6 +127,29 @@
             </form>
         </div>
     </section>
+    <footer class="footer">
+        <div>
+            <a href="/">
+                <img src="./assets/images/logo-white.png" alt="Logo blanc de HELLO CLUBS" />
+            </a>
+            <p>La référence des clubs en Nouvelle Aquitaine</p>
+        </div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="/">Accueil</a></li>
+                    <li><a href="/helloclubgolf.html">Hello Club Golf</a></li>
+                    <li><a href="/festivals.html">Festivals</a></li>
+                    <li><a href="/cybercode.html">CyberCode</a></li>
+                    <li><a href="/asdutapis.html">Les As du Tapis</a></li>
+                </ul>
+            </nav>
+            <p>
+                © copyright 2024 - helloclub.fr - Tout droits réservé - <a href="/legalnotice.html">Mentions légales</a>
+            </p>
+        </div>
+    </footer>
+    <script src="/assets/js/script.js"></script>
     <script src="/assets/js/cybercode.js"></script>
 </body>
 
